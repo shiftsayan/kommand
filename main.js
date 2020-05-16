@@ -29,6 +29,9 @@ function runKommand() {
         case 'www.gradescope.com':
             var bar = getElementByType('search')
             break;
+        case 'www.netflix.com':
+            var bar = getElementByAriaLabel('Search');
+            break;
     }
     bar.focus();
     bar.select();

@@ -1,0 +1,26 @@
+{
+    "name": "Kommand",
+    "version": "1.0",
+    "description": "Use the Cmd+K hotkey to quickly access search bars on popular websites.",
+    "manifest_version": 2,
+    "permissions": [
+        "tabs"
+    ],
+    "background": {
+        "scripts": ["background.js"],
+        "persistent": false
+    },
+    "content_scripts": [ {
+        "matches": ["<all_urls>"],
+        "js": ["main.js"]
+    } ],
+    "commands": {
+        "kommand": {
+            "suggested_key": {
+                "default": "Ctrl+Shift+K",
+                "mac": "Command+Shift+K"
+            },
+            "description": "kommand"
+        }
+      }
+}

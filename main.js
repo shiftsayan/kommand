@@ -27,10 +27,13 @@ function runKommand() {
             var bar = getElementByAriaLabel('Search or jump to…');
             break;
         case 'www.gradescope.com':
-            var bar = getElementByType('search')
+            var bar = getElementByType('search');
             break;
         case 'www.netflix.com':
             var bar = getElementByAriaLabel('Search');
+            break;
+        case 'drive.google.com':
+            var bar = getElementByAriaLabel('Search in Drive');
             break;
     }
     bar.focus();

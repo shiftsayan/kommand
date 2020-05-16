@@ -35,6 +35,9 @@ function runKommand() {
         case 'drive.google.com':
             var bar = getElementByAriaLabel('Search in Drive');
             break;
+        case 'www.amazon.com':
+            var bar = document.getElementById('twotabsearchtextbox');
+            break;
     }
     bar.focus();
     bar.select();

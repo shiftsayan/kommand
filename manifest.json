@@ -17,8 +17,8 @@
     "commands": {
         "kommand": {
             "suggested_key": {
-                "default": "Ctrl+Shift+K",
-                "mac": "Command+Shift+K"
+                "default": "Ctrl+K",
+                "mac": "Command+K"
             },
             "description": "kommand"
         }

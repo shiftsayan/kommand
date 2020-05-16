@@ -6,6 +6,13 @@ With Kommand, I can use the `Cmd+K` hotkey to quickly access search bars on popu
 
 ![](demo.gif)
 
+## Installation
+
+1. Clone or download the extension by using the green button on the top right.
+2. Go to `chrome://extensions` on Google Chrome.
+3. Click on Load Unpacked. You might need to activate Developer Mode on the top right.
+4. Start saving precious seconds of your life.
+
 ## Supported Websites
 
 * Google
@@ -16,10 +23,3 @@ With Kommand, I can use the `Cmd+K` hotkey to quickly access search bars on popu
 * Github
 
 Feel free to submit PRs with your favorite websites!
-
-## Installation
-
-1. Clone or download the extension by using the green button on the top right.
-2. Go to `chrome://extensions` on Google Chrome.
-3. Click on Load Unpacked. You might need to activate Developer Mode on the top right.
-4. Start saving precious seconds of your life.

@@ -38,6 +38,9 @@ function runKommand() {
         case 'www.amazon.com':
             var bar = document.getElementById('twotabsearchtextbox');
             break;
+        case 'www.youtube.com':
+            var bar = getElementByAriaLabel('Search');
+            break;
     }
     bar.focus();
     bar.select();

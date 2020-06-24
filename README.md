@@ -2,7 +2,7 @@
 
 My two most commonly used hotkeys are `Cmd+Space` (for Spotlight on macOS) and `Cmd+L` (for the omnibox on Chrome). These allow me to quickly jump to search on my operating system and on my web browser, but unfortunately there was no quick way for me to access the search bars on websites I frequent.
 
-With Kommand, I can use the `Cmd+Shift+K` hotkey to quickly access search bars on popular websites such as Google, Facebook, Netflix, etc. I wanted to use `Cmd+K` to be consistent with the Quick Switcher in Slack or the search bar on Messenger Desktop, but it conflicted with the hyperlink shortcut in Google Docs.
+With Kommand, I can use the `Cmd+Shift+K` hotkey to quickly access search bars on popular websites such as Google, Facebook, Netflix, etc. I would have loved to use `Cmd+K` (consister with the Quick Switcher in Slack or the search bar on Messenger Desktop) but that conflicts with the commonly accepted hyperlink shortcut.
 
 ![](demo.gif)
 
@@ -23,5 +23,6 @@ With Kommand, I can use the `Cmd+Shift+K` hotkey to quickly access search bars o
 * YouTube
 * Gradescope
 * Github
+* Tumblr
 
 Feel free to submit PRs with your favorite websites!

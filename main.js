@@ -46,5 +46,4 @@ function runKommand() {
             break;
     }
     bar.focus();
-    bar.select();
 }
